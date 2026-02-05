@@ -1,0 +1,2 @@
+# No external dependencies required for basic functionality
+# Python 3.9+ standard library is sufficient
