@@ -61,6 +61,12 @@ python main.py ... --mass-weight 0.3 --time-weight 0.7
 
 **Reference**: Paper 2, Section IV.B.3, Equation (3)
 
+## Design Choices
+
+**JSON for data storage**: Human-readable, version-controllable, zero dependencies (built-in `json` module), and easily extensible for future fields.
+
+**argparse for CLI**: Standard library tool with sufficient functionality for current scope—handles validation, help text, and type checking without external dependencies.
+
 ## Scaling to Larger Catalogs
 
 **For 100+ thrusters**: Replace JSON with SQLite for indexed queries and faster filtering.
